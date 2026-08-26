@@ -1,0 +1,72 @@
+/* SPACE INDIGO: #2A2E45 */
+/* SOFT RED: #F94F6D */
+/* SLIGHTLY DESATURATED BLUE: #9AABD8 */
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #2A2E45;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 575px;
+}
+
+.score-box {
+    display: flex;
+    margin: 0 auto 20px;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    font-size: 90px;
+    font-family: "Cursed Timer ULiL";
+    color: #F94F6D;
+}
+
+.team {
+    text-align: center;
+}
+
+.point-btns button {
+    background-color: #2A2E45;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    border-width: 1px;
+    color: #ffffff;
+    font-family: "Cursed Timer ULiL";
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+}
+
+#newgameEL{
+    background-color: darkgreen;
+    margin: 50px auto;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    border-width: 1px;
+    color: #ffffff;
+    font-family: "Cursed Timer ULiL";
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+}
